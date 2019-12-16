@@ -1,0 +1,12 @@
+/jokebook API
+
+You are tasked with creating a webservice that has two endpoints described below:
+
+Endpoint 1: /jokebook/categories
+should respond with a plain text response
+should prepend the phrase "a possible category is " to each possible category and each sentence should be on its own line.
+
+Endpoint 2: /jokebook/joke/:category
+should respond with a JSON response
+will send a random JSON response from the specified/:category
+If the category is not valid, will respond with {'error': 'no category listed for category}

@@ -1,0 +1,32 @@
+// Practice Final
+
+sum19
+
+app.get("/books/:course" async (req, res) => {
+    let className = req.params.course;
+    try {
+        let class = await fs.rewadFile("data/" + classname + ".txt", "utf8");
+        let result = [];
+        let line = class.split("\n");
+        result.name = line[0];
+        let minPrice;
+        let seller;
+        for (let i = 1; i < line.length; i++) { // [name, seller:price, ...]
+            let lineParts = line[i].split(";");
+            let price = parseFloat(lineParts[i]);
+            if (!minPrice || price < minPrice) {
+                minPrice = price;
+                seller = lineParts[0];
+            }
+        }
+        result.price = minPrice;
+        result.seller = seller;
+        res.json(result);
+    } catch (err) {
+        if (err.code === "ENOENT") {
+            res.type(text).status(400).send("file error");
+        } else {
+            res.type(text).status(500).send()
+        }
+    }
+}

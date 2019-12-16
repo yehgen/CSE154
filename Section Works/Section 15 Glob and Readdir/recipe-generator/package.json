@@ -1,0 +1,17 @@
+{
+  "name": "recipe-generator",
+  "version": "1.0.0",
+  "description": "Generates random recipes based on names",
+  "main": "recipe-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "util": "^0.12.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "hybrids",
+  "version": "1.0.0",
+  "description": "Provides relative image links for hybrid animals",
+  "main": "hybrids-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.4",
+    "util": "^0.12.1"
+  }
+}

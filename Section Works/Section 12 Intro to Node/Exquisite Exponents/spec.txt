@@ -1,0 +1,5 @@
+Add a new GET endpoint, /math/power/:base/:exponent. It should then respond in 
+JSON with the result of putting the base to the exponent power.
+{"result": 16}
+After that, implement a fetch request on the client-side to send the values in 
+#base-in and #exponent-in and print the result to #power-result.

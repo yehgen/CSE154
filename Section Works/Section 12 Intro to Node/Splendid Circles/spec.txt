@@ -1,0 +1,9 @@
+Exercise: Splendid Circles
+Add a new GET endpoint, /math/circle/:r, which takes a radius as a URL parameter. 
+It should then respond in JSON (see earlier slides for how to do that) with the area and circumference.
+{"area": 3.14, "circumference": 6.28}
+The r parameter will come in as a string, so be sure to convert it into a float.
+After that, implement a fetch request on the client-side to send the value in #radius-in and print 
+to #circle-result: "Area: area, Circumference: circumference"
+The area of a circle is PI * r * r, and the circumference is equal to PI * 2r. 
+You can access PI with Math.PI.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+  CSE 154 Summer 2019
+  Section 9 | Recipes
+
+  A webpage for displaying recipe directions for different recipes a user can select.
+-->
+<html>
+  <head>
+    <title>Nom Nom!!!</title>
+    <link href="recipe.css" rel="stylesheet" />
+    <script src="recipe.js"></script>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <h1>Recipes!</h1>
+      </header>
+
+      <p>
+        <label>
+          <input type="radio" name="recipe" value="dm-sandwich" checked="checked" />
+          DM Chicken Caesar Sandwich
+        </label>
+        <label><input type="radio" name="recipe" value="cupcake" /> Cupcake</label>
+        <label><input type="radio" name="recipe" value="enchiladas" /> Enchiladas</label>
+        <label><input type="radio" name="recipe" value="peas" /> Peas</label>
+        <label><input type="radio" name="recipe" value="mac" /> Mac and Cheese</label>
+      </p>
+
+      <!-- insert the recipe content here -->
+      <section id="recipe-area"></section>
+    </section>
+  </body>
+</html>

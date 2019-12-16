@@ -1,0 +1,55 @@
+<!--
+  Tricky Typing Test
+
+  A page where users must quickly type words that appear on screen.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tricky Typing Test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="typing.css">
+    <script src="typing.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tricky Typing Test!</h1>
+    </header>
+    <section id="intro">
+      <div>
+        <h2>Instructions</h2>
+        <p>
+          The timer starts as soon as you begin typing. You will have one minute to type as
+          many of the displayed words into the box as possible. Upon hitting space, the word you
+          typed will be registered, whether or not it is correct. Your WPM at the end (words per
+          minute) is based on roughly how many words you typed correctly in the time limit.
+        </p>
+        <p>
+          Hit the button below to begin!
+        </p>
+      </div>
+      <button id="start-btn">Begin</button>
+    </section>
+    <section id="game" class="hidden">
+      <p>Time Remaining: <span id="timer">60</span></p>
+      <p id="game-words"></p>
+      <textarea name="game-input" id="game-input" cols="30" rows="2"></textarea>
+    </section>
+    <section id="outro" class="hidden">
+      <p>Your WPM is: <span id="score"></span></p>
+      <section id="submit-form">
+        <label for="name">name: </label>
+        <input type="text" id="name">
+        <p id="submit-error"></p>
+        <button id="submit-btn">Submit Score</button>
+        <button id="no-submit-btn">Do not Submit Score</button>
+      </section>
+      <section id="scores">
+        <h2>Highscores</h2>
+        <p id="score-result">Please Wait...</p>
+        <ol id="high-scores"></ol>
+        <button id="play-again-btn">Play Again?</button>
+      </section>
+    </section>
+  </body>
+</html>

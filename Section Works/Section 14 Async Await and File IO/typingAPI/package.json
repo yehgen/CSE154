@@ -1,0 +1,16 @@
+{
+  "name": "tricky_typing_test",
+  "version": "1.0.0",
+  "description": "A game in which users must quickly type random words",
+  "main": "typingAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "util": "^0.12.1"
+  }
+}

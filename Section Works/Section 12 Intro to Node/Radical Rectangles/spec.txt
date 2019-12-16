@@ -1,0 +1,7 @@
+Exercise: Radical Rectangles
+Add a new GET endpoint, /math/rectangle/:width/:height. 
+It should then respond in JSON with the area and perimeter.
+{"area": 25, "perimeter": 20}
+After that, implement a fetch request on the client-side to send the values 
+in #width-in and #height-in and print to #rectangle-result: "Area: area, Perimeter: perimeter"
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+  CSE 154
+  Summer 2019
+  Mowgli's Cafe
+-->
+<html>
+  <head>
+    <title>Mowgli's Caf&eacute</title>
+    <script src="mowglis.js"></script>
+    <link href="mowglis.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Mowgli's Caf&eacute;</h1>
+      <p class="subtitle">
+        Fresh coffee and breakfast, brought to your door!
+      </p>
+    </header>
+    <hr />
+    <main>
+      <h2>Menu</h2>
+      <form id="order-form">
+        <div id="menu-container"></div>
+        <fieldset id="payment-info">
+          <legend>Payment</legend>
+          <p>
+            Your total (before tip and 8% tax) is: $<span id="cost">0.00</span>
+          </p>
+          <div>
+            <label for="tip">Tip: </label>
+            <p>$&nbsp;<input id="tip" type="number"/></p>
+          </div>
+          <div>
+            <label for="address">Street Address: </label>
+            <input id="address" type="text" />
+          </div>
+          <div>
+            <label for="city">City:</label>
+            <input id="city" type="text" />
+          </div>
+          <div>
+            <label for="state">State:</label>
+            <input id="state" type="text" />
+          </div>
+        </fieldset>
+        <h2>Final total: $<span id="totalcost">0.00</span></h2>
+        <button id="submit-btn">Submit Your Order!</button>
+        <p id="submit-results"></p>
+      </form>
+    </main>
+  </body>
+</html>

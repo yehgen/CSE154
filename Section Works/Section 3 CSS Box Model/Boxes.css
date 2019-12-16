@@ -1,0 +1,29 @@
+/* CSE154 Section 3
+Boxes
+Given boxes.html, write boxes.css to make the appearance below.
+Note: Inspect/view page source on boxes.html to see the HTML code!
+More details for this exercise are on the slide below.
+The outer padding of the box is teal with a width of 50 pixels.
+The inner border of the box is pink with a width of 50 pixels.
+The inner background color of the box is salmon with a width and height of 200 pixels.
+The overall box has a total width and height of 400 pixels.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#inner-box {
+    border: 50px solid pink;
+    background-color: salmon;
+    height: 200px;
+    width: 200px;
+}
+
+#outer-box {
+    background-color: teal;
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+}

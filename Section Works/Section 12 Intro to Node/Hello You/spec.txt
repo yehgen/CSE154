@@ -1,0 +1,22 @@
+Exercise: Hello You!
+Add a new GET endpoint, /hello/name, which takes as query parameters a first and last parameter.
+It should then respond in plain text with "Hello firstName lastName"
+If they fail to provide the necessary GET parameters, respond with a 400 status code, and the 
+error message "Missing Required GET parameters: first, last". If they provide one, but not the
+other, your error message should only have the missing parameter listed.
+After that, implement a fetch request on the client-side to send the values in #firstname-in 
+and #lastname-in and print the result from the server into #name-result.
+
+URL parameters
+You may recognize this from the number trivia API we used at the beginning of AJAX. We can 
+accept parameters directly inside of the URL with node.JS by putting them in the endpoint 
+we pass into app.get:
+In Node.JS: app.get("/hello/name/:first/:last", ...)
+Request: localhost:8000/hello/name/Mowgli/Hovik
+The colon before the param name implies that it is a key, whose value is passed in by the 
+user when they make the request. In your code, you can access these parameters in a similar 
+way to query parameters:
+In Node.JS: let firstName = req.params["first"];
+You do not need to check that these are defined, because in order for them to use this 
+endpoint, they must have the parameters.
+Note: You can use GET parameters and URL parameters at the same time, if you feel so inclined.
