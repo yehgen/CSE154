@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "name":"Creatine",
+      "description":"A molecule that is naturally created within the human body that provides energy for muscles. Dietary supplementation may increase this content by up to 40%."
+    },
+    {
+      "name": "Beta-Alanine",
+      "description": "An amino acid found in the body. Supplementing this may help reduce fatigue and improve workout performance."
+    },
+    {
+      "name": "BCAAs",
+      "description": "Known as Branched-Chain Amino Acids, these are a mixture of the leucine, isoleucine, and valine amino acids which may aid in muscle recovery. When supplemented, this may help reduce post workout fatigue."
+    },
+    {
+      "name": "Protein Powder",
+      "description": "Multiple amino acids ground up into powder form to help muscles rebuild. Supplement this when daily protein intake is low."
+    },
+    {
+      "name": "Caffeine",
+      "description": "A stimulant for the central nervous system that rids the mind of feeling tired. Helps boost energy levels temporarily."
+    },
+    {
+      "name": "Glutamine",
+      "description": "One of the most common amino acids inside the human body, Glutamine offers fuel for cells. May help boost endurance and later reduce fatigue."
+    },
+    {
+      "name": "Carnitine",
+      "description": "A compound found in the mitochondria of cells which helps transport fatty acids to be used as energy."
+    },
+    {
+      "name": "Fish Oil",
+      "description": "High in Omega-3 fatty acids, fish oil is claimed to support the heart and cardiovascular system and lower triglyceride production in the body to prevent diseases."
+    },
+    {
+      "name": "Citrulline",
+      "description": "Another amino acid known for promoting endurance and blood flow."
+    }
+  ]
+}
