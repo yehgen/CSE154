@@ -1,0 +1,115 @@
+/*
+  Name: Generous Yeh
+  Date: September 26th, 2019
+  Section: CSE 154 AH
+  TA: Valerie Remaker
+  This is the styles.css sheet for my online portfolio, which will serve to format my information.
+  I will be designing a consistent outline for my html web page through the adjustment of colors,
+  margins, and other various documentation details and aesthetics.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+section {
+  margin: auto;
+  padding-right: 2%;
+}
+
+.flex-box {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-style: double;
+  border-width: 5px;
+  padding-left: 2%;
+}
+
+section, .flex-box {
+  width: 100%;
+}
+
+body, .flex-box {
+  display: flex;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+#unhideButton {
+  background-color: green;
+  border-radius: 30px;
+  color: white;
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.unhideButton:hover {
+  background-color: #5cbf2a;
+}
+
+.hidden {
+  display: none;
+}
+
+div {
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(105, 235, 235);
+}
+
+nav {
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  text-align: right;
+}
+
+nav li {
+  padding-top: 1%;
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 75px;
+}
+
+#unhideButton, nav li {
+  text-transform: uppercase;
+}
