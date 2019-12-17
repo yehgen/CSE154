@@ -1,0 +1,92 @@
+/*
+  Name: Generous Yeh
+  Date: September 26th, 2019
+  Section: CSE 154 AH
+  TA: Valerie Remaker
+  This is the styles.css sheet for my online portfolio, which will serve to format my information.
+  I will be designing a consistent outline for my html web page through the adjustment of colors,
+  margins, and other various documentation details and aesthetics.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+body {
+  background: /*purple gradient background*/
+    radial-gradient(
+      circle,
+      rgba(116, 40, 186, 1) 0%,
+      rgba(119, 34, 201, 1) 10%,
+      rgba(114, 22, 204, 1) 25%,
+      rgba(112, 10, 213, 1) 50%,
+      rgba(88, 3, 175, 1) 65%,
+      rgba(73, 1, 147, 1) 75%,
+      rgba(48, 6, 122, 1) 100%
+    );
+  font-family: "Yanone Kaffeesatz", "Helvetica", sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+section {
+  border-style: solid;
+  border-radius: 25px;
+  width: 75%;
+  margin: auto;
+  border-top: 10px;
+}
+
+h1, h2, h3, h4 {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  margin: 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: goldenrod;
+}
+
+ul, ol {
+  margin: 10px;
+  padding: 0px;
+  margin-left: 30px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li > ul {
+  list-style-type: circle;
+  font-size: 16px;
+}
+
+nav {
+  margin-left: -50px;
+}
+
+nav li {
+  margin-top: 25px;
+  padding-bottom: 15px;
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+img {
+  border-radius: 25%;
+}
+
+img.dogpics {
+  margin-left: 25px;
+}
