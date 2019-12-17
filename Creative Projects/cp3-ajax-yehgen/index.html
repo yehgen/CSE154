@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+  Name: Generous Yeh
+  Date: October 30, 2019
+  Section: CSE 154 AH
+  TA: Valerie Remaker
+  Creative Project #3
+
+  This is the index.html page for my taco website with buttons for the user to click in order to
+  generate random unique recipes.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Let's Taco Bout Dinner</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <section class="content">
+        <h1>Let's Taco Bout Dinner</h1>
+        <span>Generate a new taco recipe for tonight!</span>
+      </section>
+    </header>
+
+    <main class="content">
+      <section id="generated">
+        <p>
+          Use the <a href="http://taco-randomizer.herokuapp.com/random/">
+          Taco Randomizer</a> to see what today's feast shall be.
+        </p>
+        <button id="first-taco">Generate Taco</button>
+      </section>
+
+      <section id="result">
+        <p id="hungry" class="hidden">
+          Still feeling hungry after that first taco? <br>
+          Didn't make enough? <br>
+          Try another recipe! <br>
+          Still hungry after more? <br>
+          Keep trying new recipes!
+        </p>
+        <button id="more-taco" disabled=disabled>Get Seconds.. or more!</button> <br>
+        <img src="taco-truck.jpg" alt=taco-truck>
+          <!--Retrieved clipart from https://www.istockphoto.com/illustrations/taco-truck-->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        With data from <a href="http://taco-randomizer.herokuapp.com/random/">
+        the Taco Randomizer.</a> Background from
+        <a href="http://getwallpapers.com/wallpaper/full/1/9/a/513622.jpg">getwallpapers.com</a>
+      </p>
+    </footer>
+  </body>
+</html>

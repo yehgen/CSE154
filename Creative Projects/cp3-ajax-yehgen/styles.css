@@ -1,0 +1,79 @@
+/*
+  Name: Generous Yeh
+  Date: October 30, 2019
+  Section: CSE 154 AH
+  TA: Valerie Remaker
+  This is the styles.css sheet for my taco generator website which gives
+  the website a smooth look and feel.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("taco-back.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+}
+
+header, main {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  background-color: #02c0bd;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+  font-size: 14pt;
+  margin: 0;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  flex-shrink: 0;
+}
+
+button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+a {
+  color: rgb(155, 15, 100);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
