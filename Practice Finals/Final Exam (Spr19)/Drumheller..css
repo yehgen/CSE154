@@ -1,0 +1,53 @@
+/* Part A: Container holding 3 mallard duck images */
+#mallard-container {
+    width: 100px;
+    height: 200px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#mallard-container > img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Part B: Container holding CSE 154 staff images */
+#party-container {
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.party-pic {
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+    border-radius: 50%;
+}
+
+/* Part C: Container holding the #add-duckie and #party-mode buttons */
+button {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: indigo;
+    font-size: 14pt;
+    background-color: gold;
+    width: 300px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
