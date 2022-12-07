@@ -4,7 +4,7 @@
   "description": "For your fourth Creative Project, you will create your own Node.js web service available for use\r with AJAX and fetch. Once again, as a Creative Project, you have\r freedom to have more ownership in your work, as long as you meet the requirements listed below.",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "fs": "0.0.1-security"
   },
   "devDependencies": {},
